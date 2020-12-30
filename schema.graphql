@@ -1,0 +1,73 @@
+type Query {
+  accounts: [Account],
+  messages:[Message],
+  contacts:[Contact],  
+  contact(id:ID!):Contact
+  engagements: [Engagement]
+  drnotes: [DrNote]
+}
+
+
+type Subscription {
+  accountAdded : Account,
+  accountsAdded : [Account]
+}
+
+type Message {
+  id: ID!
+  from: String 
+  text: String
+}
+
+input MessageInput {
+  text: String
+}
+
+type Account {
+  id: ID!
+  name: String
+  contacts:[Contact] 
+}
+
+
+type Contact {
+  id: ID!
+  name: String
+  role: String
+  account: Account 
+}
+
+type Engagement {
+  id: ID!
+  status: String
+  contact: Contact
+}
+
+type DrNote {
+     id: ID!
+    placeOfVisit: String,
+    visitType:String,
+    ROS_1:String,
+    ROS_2:String,
+    PE_1:String,
+    PE_2:String,
+    contact:Contact,    
+    engagement:Engagement
+}
+
+
+type Mutation {
+    createAccount(input:CreateAccountInput): Account
+    createAccounts(input:[CreateAccountInput]): [Account]
+    
+}
+
+input ContactInput {
+  name: String
+  role: String
+}
+
+input CreateAccountInput {
+  name:String!
+  contacts:[ContactInput]  
+}

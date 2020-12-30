@@ -1,0 +1,20 @@
+[
+    {
+      "id": "ap1",
+      "plan": "plan A",
+      "drnoteId":"n1"
+    },{
+        "id": "ap2",
+        "plan": "plan B",
+        "drnoteId":"n1"
+    },{
+        "id": "ap3",
+        "plan": "plan C",
+        "drnoteId":"n3"
+    },{
+        "id": "ap4",
+        "plan": "plan C",
+        "drnoteId":"n2"
+    }
+  ]
+  

@@ -1,0 +1,37 @@
+query contactQuery($id: ID!){
+  contact(id:$id){
+    id
+    name
+    role
+    account {
+      name
+      contacts{
+        name
+        role
+      }
+    }
+  }
+}
+
+////
+query {
+  drnotes{
+    id
+    placeOfVisit
+    visitType
+    ROS_1
+    PE_1    
+    engagement{
+      id
+      status
+      contact {
+        name
+        role
+        account{
+          name
+          id
+        }
+      }
+    }
+  }
+}

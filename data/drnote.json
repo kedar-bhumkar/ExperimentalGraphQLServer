@@ -1,0 +1,44 @@
+[
+  {
+    "id": "n1",
+    "placeOfVisit": "home",
+    "visitType":"telephonic",
+    "ROS_1":"ROS_1",
+    "ROS_2":"ROS_2",
+    "PE_1":"PE_1",
+    "PE_2":"PE_2",
+    "contactId":"1",    
+    "engagementId":"eng1"
+
+  },  {
+    "id": "n2",
+    "placeOfVisit": "hospital",
+    "visitType":"telephonic",
+    "ROS_1":"ROS_11",
+    "ROS_2":"ROS_21",
+    "PE_1":"PE_11",
+    "PE_2":"PE_21",
+    "contactId":"2",    
+    "engagementId":"eng1"
+  },  {
+    "id": "n3",
+    "placeOfVisit": "home",
+    "visitType":"face2face",
+    "ROS_1":"ROS_111",
+    "ROS_2":"ROS_211",
+    "PE_1":"PE_111",
+    "PE_2":"PE_211",
+    "contactId":"3",    
+    "engagementId":"eng2"
+  },  {
+    "id": "n4",
+    "placeOfVisit": "virtual",
+    "visitType":"Telephonic",
+    "ROS_1":"ROS_1111",
+    "ROS_2":"ROS_2111",
+    "PE_1":"PE_1111",
+    "PE_2":"PE_2111",
+    "contactId":"1",    
+    "engagementId":"eng3"
+  }
+]

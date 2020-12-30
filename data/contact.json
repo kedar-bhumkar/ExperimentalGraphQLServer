@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "alice",
+    "role": "patient",
+    "accountId": "SJKhIAKYB"
+  },
+  {
+    "id": "2",
+    "name": "bob",
+    "role": "patient",
+    "accountId": "MKKhIAKBY"
+  },
+  {
+    "id": "3",
+    "name": "charlie",
+    "role": "patient",
+    "accountId": "SJKhIAKYB"
+  },
+  {
+    "id": "4",
+    "name": "delta",
+    "role": "patient",
+    "accountId": "MKKhIAKBY"
+  },
+  {
+    "id": "5",
+    "name": "manny",
+    "role": "pcp",
+    "accountId": "SJKhIAKYB"
+  },
+  {
+    "id": "6",
+    "name": "lisa",
+    "role": "pcp",
+    "accountId": "JJKhIAKBB"
+  },
+  {
+    "id": "7",
+    "name": "Gal",
+    "role": "pcp",
+    "accountId": "JJKhIAKBB"
+  }
+]
