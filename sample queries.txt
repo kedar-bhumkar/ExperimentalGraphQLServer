@@ -35,3 +35,40 @@ query {
     }
   }
 }
+/////
+mutation CreateAccount($input: CreateAccountInput){
+  Account:createAccount(input:$input){
+   id
+    name
+  }
+}
+/////
+mutation CreateAccounts($input: [CreateAccountInput]){
+  Account:createAccounts(input:$input){
+   id
+    name
+  }
+}
+vars :
+{
+  "input": [{
+    "name": "XX"
+   
+  },{
+    "name": "YY"
+  }]
+}
+////
+subscription subAccountAdded{
+  accountAdded{
+    id
+    name
+  }
+}
+////
+subscription subAccountsAdded{
+  accountsAdded{
+    id
+    name
+  }
+}
